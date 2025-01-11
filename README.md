@@ -19,5 +19,6 @@ This code is provided as is, without warranty of any kind, express or implied, i
 
 For inquiries or permissions or contribute to this project, please reach out via:
 
-Email: [skmasih11@gmail.com](mailto:skmasih11@gmail.com)  
-GitHub: [https://github.com/avinesh-masih](https://github.com/avinesh-masih)  
+- **Portfolio:** [AVINESH MASIH](https://avinesh-masih.github.io/)
+- **Email:** [skmasih11@gmail.com](mailto:skmasih11@gmail.com)  
+- **LinkedIn:** [avineshlko](https://www.linkedin.com/in/avineshlko/)
