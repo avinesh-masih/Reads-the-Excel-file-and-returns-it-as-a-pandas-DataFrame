@@ -2,6 +2,15 @@
 
 Welcome to , a repository containing code and resources which This function provides a streamlined way to read data from an Excel file and load it into a pandas DataFrame. It supports single or multi-sheet Excel files and allows for additional customization, such as selecting specific sheets, columns, or rows. The resulting DataFrame is ready for analysis, transformation, or export, making it a versatile tool for data processing workflows.
 
+## Required Python Libraries:
+Install the necessary Python libraries used in this script. 
+You can do this by running the following commands in your terminal or command prompt:
+```
+pip install pandas
+pip install fpdf
+pip install openpyxl
+```
+
 ## License
 
 This project is protected under a custom license. Unauthorized use, modification, distribution, or reproduction of the code and any associated materials is strictly prohibited without explicit written permission from the author.
