@@ -1,10 +1,3 @@
-"""Required Python Libraries:
-Install the necessary Python libraries used in this script. 
-You can do this by running the following commands in your terminal or command prompt:
-pip install pandas
-pip install fpdf
-openpyxl
-"""
 import os
 import pandas as pd
 from fpdf import FPDF
