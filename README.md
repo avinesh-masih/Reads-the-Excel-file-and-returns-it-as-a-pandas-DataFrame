@@ -17,6 +17,22 @@ This project provides a streamlined way to read data from an Excel file and load
 - **User Interaction:** Prompt the user to overwrite existing reports or skip report generation for specific employees.
 
 ---
+## Cloning the Repository
+
+**To clone the repository, follow these steps:**
+
+- Open your terminal or command prompt.
+
+- Navigate to the directory where you want to clone the repository.
+
+- Run the following command:
+```
+git clone https://github.com/avinesh-masih/employee-report-generator.git
+```
+- Navigate into the cloned repository:
+```
+cd employee-report-generator
+```
 
 ## Required Python Libraries:
 Install the necessary Python libraries used in this script. 
@@ -43,7 +59,9 @@ pip install openpyxl
 - Place your Excel file (e.g., employees.xlsx) in the assets folder.
 - Run the script:
 
-```python generate_employee_reports.py```
+```
+python generate_employee_reports.py
+```
 
 - Follow the prompts to overwrite or skip existing reports as needed.
 
