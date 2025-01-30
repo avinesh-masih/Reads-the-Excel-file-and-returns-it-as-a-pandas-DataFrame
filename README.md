@@ -67,6 +67,19 @@ python generate_employee_reports.py
 
 ---
 
+## Screenshots
+
+**Report Folder**
+![Report Folder](assets/test_project-report.png)
+
+**Overwrite Prompt**
+![Overwrite Prompt](assets/testing_code.png)
+
+**Generated Reports**
+![Generated Reports](assets/testing_folder.png)
+
+---
+
 ## Project Structure
 
 - `generate_employee_reports.py` : Main script for reading Excel data and generating PDF reports.
