@@ -98,13 +98,18 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 ---
 
 ## License
+This project is licensed under the [MIT License](LICENSE).  
 
-This project is protected under a custom license. Unauthorized use, modification, distribution, or reproduction of the code and any associated materials is strictly prohibited without explicit written permission from the author.
+**Author:** [@avinesh-masih](https://github.com/avinesh-masih)
 
-By accessing this repository, you agree to adhere to the following conditions:
+---
 
-* You may view, study, and contribute only with prior approval from the repository owner.  
-* You may not copy, redistribute, or use any part of this repository for personal, academic, or commercial purposes without authorization.
+### Contribution & Usage Terms
+By accessing this repository, you agree to the following conditions:  
+- You may **view, study, and contribute** only with **prior approval** from the repository owner.  
+- You may **not copy, redistribute, or use** any part of this repository for personal, academic, or commercial purposes without authorization.  
+
+For permissions, please contact **[@avinesh-masih](#contact)**.
 
 ## Disclaimer 
 
