@@ -70,12 +70,15 @@ python generate_employee_reports.py
 ## Screenshots
 
 **Report Folder**
+
 ![Report Folder](assets/test_project-report.png)
 
 **Overwrite Prompt**
+
 ![Overwrite Prompt](assets/testing_code.png)
 
 **Generated Reports**
+
 ![Generated Reports](assets/testing_folder.png)
 
 ---
