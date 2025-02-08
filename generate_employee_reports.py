@@ -23,8 +23,24 @@ def generate_report(person_data, purchase_data, output_path):
     pdf.add_page()
     pdf.set_font("Arial", size=12)
 
+    # Add contact information icons as hyperlinks at the top center
+    pdf.set_xy(80, 15)
+    pdf.image("assets/github.png", link="https://github.com/avinesh-masih", w=10)
+    pdf.set_xy(95, 15)
+    pdf.image("assets/linkedin.png", link="https://www.linkedin.com/in/avineshlko/", w=10)
+    pdf.set_xy(110, 15)
+    pdf.image("assets/portfolio.png", link="https://avinesh-masih.github.io/", w=10)
+    pdf.set_xy(125, 15)
+    pdf.image("assets/email.png", link="mailto:skmasih11@gmail.com", w=10)
+    pdf.set_xy(140, 15)
+    pdf.image("assets/paypal.png", link="https://paypal.me/AVINESHMASIH", w=10)
+    pdf.set_xy(155, 15)
+    pdf.image("assets/buymeacoffee.png", link="https://buymeacoffee.com/avineshlko", w=10)
+
+    pdf.ln(20)  # Add space after the icons
+
     # Add company logo and name
-    pdf.image("assets/logo.png", x=10, y=8, w=33)  # Adjust the path and size as needed
+    pdf.image("assets/employee_logo.png", x=10, y=8, w=33)  # Adjust the path and size as needed
     pdf.set_font("Arial", 'B', 16)
     pdf.cell(200, 10, txt="AVINESH MASIH PROJECT ", ln=True, align="C")
     pdf.ln(20)
@@ -69,6 +85,7 @@ def generate_report(person_data, purchase_data, output_path):
         pdf.cell(40, 10, str(row['Price (INR)']), border=1, align='C')
         pdf.cell(50, 10, str(row['Total Cost (INR)']), border=1, align='C')
         pdf.ln()
+
 
     # Output the PDF
     pdf.output(output_path)
