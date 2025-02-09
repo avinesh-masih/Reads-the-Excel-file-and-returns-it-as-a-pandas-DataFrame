@@ -35,13 +35,19 @@ cd employee-report-generator
 ```
 
 ## Required Python Libraries:
-Install the necessary Python libraries used in this script. 
-You can do this by running the following commands in your terminal or command prompt:
+Install the necessary Python libraries used in this script by using the `requirements.txt` file. 
+
+```
+pip install -r requirements.txt
+```
+
+Or you can also do this by running the following command in your terminal or command prompt:
 ```
 pip install pandas
 pip install fpdf
 pip install openpyxl
 ```
+
 ---
 
 ## Usage
@@ -86,8 +92,19 @@ python generate_employee_reports.py
 ## Project Structure
 
 - `generate_employee_reports.py` : Main script for reading Excel data and generating PDF reports.
-- `assets/` : Folder containing the Excel file and other assets like the company logo.
+- `assets/` : Folder containing the Excel file and other assets like the company logo and icons.
 - `reports/` : Folder where the generated PDF reports will be saved.
+- `tests/` : Folder containing unit test scripts to verify the functionality of the main script.
+- `.github/workflows/` : Folder containing GitHub Actions workflow files for continuous integration.
+- `.gitignore` : File specifying files and directories to be ignored by Git.
+- `Dockerfile` : File for containerizing the application using Docker.
+- `Makefile` : File for automating common tasks such as running tests and installing dependencies.
+- `README.md` : File providing an overview of the project, installation instructions, usage, and other relevant information.
+- `requirements.txt` : File listing the dependencies required for the project.
+- `CONTRIBUTING.md` : File outlining guidelines for contributing to the project.
+- `CODE_OF_CONDUCT.md` : File setting expectations for behavior in the project community.
+- `LICENSE` : File specifying the license under which the project is distributed.
+- `CHANGELOG.md` : File documenting the changes and new features in each version of the project.
 
 ---
 
